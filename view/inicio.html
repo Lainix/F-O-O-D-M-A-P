@@ -12,16 +12,168 @@
 
 <body>
   <!-- Inicio -->
-	<div id="map"></div>
+  <h1 class="center">Food Map</h1>
+  <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.2981997862967!2d-103.40018168507359!3d20.657443686200697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428add695e280a9%3A0xcb847e98a8dcf244!2sAv.+Adolfo+L%C3%B3pez+Mateos+Sur+2077%2C+Chapalita+Sur%2C+44510+Zapopan%2C+Jal.!5e0!3m2!1ses-419!2smx!4v1529423391114"
+      width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
 
 
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-  
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCg9t8NxXPub-UxmbZZsv0qlUV3-aGqghc&callback=initMap"></script>
+  <!-- Restaurant 1 -->
+  <!-- input -->
+  <div class="row">
+    <div class="input-field col s12 center">
+      <div class="input-field">
+        <form class="">
+          <div class="input-field">
+            <select class="icons">
+              <option value="" disabled selected>Restaurantes</option>
+              <option class="Restaurante" value="mexico" class="left">Precio Alto</option>
+              <option class="Restaurante" value="chile" class="left">Precio medio</option>
+              <option class="Restaurante" value="peru" class="left">Precio Bajo</option>
+            </select>
+            <div>
+              <label>Escoje el que mas te guste</label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
 
-  <script src="../js/inicio.js"></script>
+    <div class="row">
+      <div class="col s6 m6">
+        <h5 class="header">Namasteak</h5>
+        <div class="card horizontal">
+          <div class="card-image">
+            <img class="responsive-img" src="../css/images/namasteak.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>Comida para llevar, Reservaciones, Asiento, Meseros, Estacionamiento disponible, Estacionamiento en la calle,
+                Televisión, Sillitas altas disponibles, Sirve alcohol, Bar completo, Acepta American Express, Acepta Mastercard,
+                Acepta Visa</p>
+              <div class="header">Precio: medio
+              </div>
+            </div>
+            <div class="card-action">
+              <a href="https://www.tripadvisor.com.mx/Restaurant_Review-g1006488-d7810638-Reviews-Namasteak-Zapopan_Guadalajara_Metropolitan_Area.html">Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Restaurant 2 -->
+      <div class="col s6 6">
+        <h5 class="header">La Vaca Argentina</h5>
+        <div class="card horizontal">
+          <div class="card-image">
+            <img class="responsive-img" src="../css/images/argentina.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>Bar con música en vivo, Reuniones de negocios, Familias con niños, Grupos grandes, Ocasiones especiales, Romántico</p>
+              <div class="header">Precio: Alto
+              </div>
+            </div>
+            <div class="card-action">
+              <a href="https://www.tripadvisor.com.mx/Restaurant_Review-g150798-d948433-Reviews-La_Vaca_Argentina-Guadalajara_Guadalajara_Metropolitan_Area.html">Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Restaurant 3 -->
+      <div class="col s6 m6">
+        <h5 class="header">Namasteak</h5>
+        <div class="card horizontal">
+          <div class="card-image">
+            <img class="responsive-img" src="../css/images/namasteak.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>Comida para llevar, Reservaciones, Asiento, Meseros, Estacionamiento disponible, Estacionamiento en la calle,
+                Televisión, Sillitas altas disponibles, Sirve alcohol, Bar completo, Acepta American Express, Acepta Mastercard,
+                Acepta Visa</p>
+              <div class="header">Precio: medio
+              </div>
+            </div>
+            <div class="card-action">
+              <a href="https://www.tripadvisor.com.mx/Restaurant_Review-g1006488-d7810638-Reviews-Namasteak-Zapopan_Guadalajara_Metropolitan_Area.html">Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Restaurant 4 -->
+      <div class="col s6 6">
+        <h5 class="header">La Vaca Argentina</h5>
+        <div class="card horizontal">
+          <div class="card-image">
+            <img class="responsive-img" src="../css/images/argentina.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>Bar con música en vivo, Reuniones de negocios, Familias con niños, Grupos grandes, Ocasiones especiales, Romántico</p>
+              <div class="header">Precio: Alto
+              </div>
+            </div>
+            <div class="card-action">
+              <a href="https://www.tripadvisor.com.mx/Restaurant_Review-g150798-d948433-Reviews-La_Vaca_Argentina-Guadalajara_Guadalajara_Metropolitan_Area.html">Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Restaurant 5 -->
+      <div class="col s6 m6">
+        <h5 class="header">Namasteak</h5>
+        <div class="card horizontal">
+          <div class="card-image">
+            <img class="responsive-img" src="../css/images/namasteak.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>Comida para llevar, Reservaciones, Asiento, Meseros, Estacionamiento disponible, Estacionamiento en la calle,
+                Televisión, Sillitas altas disponibles, Sirve alcohol, Bar completo, Acepta American Express, Acepta Mastercard,
+                Acepta Visa</p>
+              <div class="header">Precio: medio
+              </div>
+            </div>
+            <div class="card-action">
+              <a href="https://www.tripadvisor.com.mx/Restaurant_Review-g1006488-d7810638-Reviews-Namasteak-Zapopan_Guadalajara_Metropolitan_Area.html">Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Restaurant 6 -->
+      <div class="col s6 6">
+        <h5 class="header">La Vaca Argentina</h5>
+        <div class="card horizontal">
+          <div class="card-image">
+            <img class="responsive-img" src="../css/images/argentina.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>Bar con música en vivo, Reuniones de negocios, Familias con niños, Grupos grandes, Ocasiones especiales, Romántico</p>
+              <div class="header">Precio: Alto
+              </div>
+            </div>
+            <div class="card-action">
+              <a href="https://www.tripadvisor.com.mx/Restaurant_Review-g150798-d948433-Reviews-La_Vaca_Argentina-Guadalajara_Guadalajara_Metropolitan_Area.html">Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCg9t8NxXPub-UxmbZZsv0qlUV3-aGqghc&callback=initMap"></script>
+
+    <script src="../js/inicio.js"></script>
 </body>
 
 </html>

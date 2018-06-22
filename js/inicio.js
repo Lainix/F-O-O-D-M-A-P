@@ -42,4 +42,6 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 }
 
 // para que lea e inicialice todo
-$(document).ready(function () {});
+$(document).ready(function(){
+  $('select').formSelect();
+});
